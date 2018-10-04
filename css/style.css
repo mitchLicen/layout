@@ -1,0 +1,250 @@
+
+/* NAV BAR */
+.logo img{
+margin-left: 62px;
+}
+
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 0px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 150px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+/* HEADER */
+/* 
+#home, h1, h6, h2{
+    margin-top: 10em;
+} */
+
+#home, h1{
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+#home, h2{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+/* HOME */
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.598), rgba(255, 255, 255, 0.687)), url(../img/bg-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 120vh;
+}
+
+/* SERVICES */
+.services-con{
+    margin-top: -8px;
+}
+
+.services-list{
+margin-left: -40px;
+}
+/* ABOUT */
+
+#about {
+
+    background: url(../img/Light-Grey.jpg);
+    z-index: 1;
+    margin-top: -95px;
+}
+
+.about-info{
+    margin-top: 50px;
+    max-width: 90%;
+    text-align: center
+}
+
+.pics img{
+    opacity: 0.8;
+}
+
+
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+.i-grid,.i-grid-2 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.i-grid img{
+    float: right;
+}
+
+.i-grid-2 img{
+    float: left;
+}
+
+.v-center{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.middle {
+    border:2px solid black;
+    position:absolute;
+    z-index:100;
+    top: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 47%;
+    right: 47%;
+    background-color: white;
+}
+.category .row{
+    position: relative;
+
+}
+
+.page-footer {
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+    margin-left: -40px;
+  }
+.ul-awards{
+    margin-top: 31px;
+}
+.what-we-do{
+    float: right;
+}
+
+hr { 
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+} 
+
+ul.footer-menu li{
+    display: inline-block;
+}
